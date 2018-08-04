@@ -14,14 +14,16 @@ Summary: This is software linked to the book 'Applied Smoothing Techniques for D
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-sm-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-sm-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-sm-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-sm-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-sm-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-sm-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-sm-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-sm-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-sm-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-sm-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-sm-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-sm-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-sm/badges/version.svg)](https://anaconda.org/conda-forge/r-sm)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-sm/badges/downloads.svg)](https://anaconda.org/conda-forge/r-sm)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--sm-green.svg)](https://anaconda.org/conda-forge/r-sm) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-sm.svg)](https://anaconda.org/conda-forge/r-sm) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-sm.svg)](https://anaconda.org/conda-forge/r-sm) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-sm.svg)](https://anaconda.org/conda-forge/r-sm) |
 
 Installing r-sm
 ===============
