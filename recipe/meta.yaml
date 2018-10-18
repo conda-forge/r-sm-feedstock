@@ -14,8 +14,10 @@ source:
     - {{ cran_mirror }}/src/contrib/Archive/sm/sm_{{ version }}.tar.gz
   sha256: b890cd7ebe8ed711ab4a3792c204c4ecbe9e6ca1fd5bbc3925eba5833a839c30
 
+# This requires full tcltk support in R, which doesn't work in Windows at the moment
 build:
   merge_build_host: True  # [win]
+  skip: True  # [win]
   number: 0
   rpaths:
     - lib/R/lib/
