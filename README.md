@@ -1,7 +1,7 @@
 About r-sm
 ==========
 
-Home: https://cran.r-project.org/web/packages/sm/index.html
+Home: http://www.stats.gla.ac.uk/~adrian/sm
 
 Package license: GPL (>= 2)
 
@@ -16,7 +16,7 @@ Current build status
 
 [![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-sm-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-sm-feedstock)
 [![OSX](https://img.shields.io/travis/conda-forge/r-sm-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-sm-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-sm-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-sm-feedstock/branch/master)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
