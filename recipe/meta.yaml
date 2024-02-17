@@ -1,4 +1,4 @@
-{% set version = "2.2-5.7.1" %}
+{% set version = "2.2-6.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,13 +12,13 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sm_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sm/sm_{{ version }}.tar.gz
-  sha256: ea0cc32eb14f6c18beba0bede66ed37bc5341bd3f76c1a7ae56d7254693e1457
+  sha256: 27a6e3291a572c3d30f25982902ccde5299230061e5dc1a38fb52aaac2561d61
 
 # This requires full tcltk support in R, which doesn't work in Windows at the moment
 build:
   merge_build_host: true  # [win]
   skip: true  # [win]
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
